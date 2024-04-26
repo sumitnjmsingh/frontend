@@ -14,12 +14,19 @@ module.exports = {
       padding: "2rem",
       screens: {
         "2xl": "1400px",
+        
       },
     },
     extend: {
       fontFamily:{
         Lobster: ["Lobster", "sans-serif"]
       },
+      
+        screens: {
+          "st":{min:"100px",max:"800px"},
+          // => @media (min-width: 992px) { ... }
+        },
+      
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

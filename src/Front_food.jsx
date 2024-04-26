@@ -57,7 +57,7 @@ function Front_food() {
     <>
     
       
-   <div className={`w-[${val}%]  transition-width duration-500 linear`}>
+   <div className={`w-[${val}%] max-w-[1600px]  transition-width duration-500 linear`}>
     <div className=' h-[60px]  grid grid-cols-[40px_1fr_2fr_3fr_40px] p-[5px] boder-b-[solid] border-b-[2px] border-b-[black]'>
         <div className='bg-[url("/image/logo.svg")] bg-[no-repeat] bg-cover bg-center col-start-2'></div>
         <div className=' col-start-3'></div>
@@ -69,7 +69,7 @@ function Front_food() {
         <div className=' col-start-3 grid grid-cols-5 gap-x-[5px]'>
 
             <div className=' grid grid-cols-[3fr_1fr] place-items-center'>
-                <div><input type="text" className='lg:w-[65px] md:w-[40px] rounded-[20px] border-[solid] border-[black] border-[2px] p-[2px] bg-[#f0dada]' placeholder='Enter food...'></input>
+                <div><input type="text" className='lg:w-[65px] st:w-[40px] rounded-[20px] border-[solid] border-[black] border-[2px] p-[2px] bg-[#f0dada]' placeholder='Enter food...'></input>
                 
                 </div>
                 <div className='lg:text-[30px] md:text-[20px]'><FaSearch /></div>
@@ -105,18 +105,18 @@ function Front_food() {
     <div className='h-[50px]'></div>
     <div className='h-[100%]  grid grid-cols-[20%_80%] p-[10px] '>
         <div className=' h-[100vh] sticky top-20 p-[10px] '>
-            <ul className='flex flex-col md:gap-[34px] lg:gap-[20px] place-items-center w-[100%] h-[100%]'>
-                <li className={`bg-[#484242] text-white border-[solid] border-[black]  h-[40px]  lg:w-[200px] md:w-[100px] border-[3px] rounded-[20px] p-[8px]mt-[50px]`}>CATEGORIES</li>
-                <li className={`bg-[#484242] text-white border-[solid] border-[black]  h-[40px]  lg:w-[200px] md:w-[100px] border-[3px] rounded-[20px] p-[8px]`}>Bowls</li>
-                <li className={`bg-[#484242] text-white border-[solid] border-[black]  h-[40px]  lg:w-[200px] md:w-[100px] border-[3px] rounded-[20px] p-[8px]`}>Noodles</li>
-                <li className={`bg-[#484242] text-white border-[solid] border-[black]  h-[40px]  lg:w-[200px] md:w-[100px] border-[3px] rounded-[20px] p-[8px]`}>Keto and Salads</li>
-                <li className={`bg-[#484242] text-white border-[solid] border-[black]  h-[40px]  lg:w-[200px] md:w-[100px] border-[3px] rounded-[20px] p-[8px]`}>Appetizers</li>
-                <li className={`bg-[#484242] text-white border-[solid] border-[black]  h-[40px]  lg:w-[200px] md:w-[100px] border-[3px] rounded-[20px] p-[8px]`}>Lite Bite</li>
-                <li className={`bg-[#484242] text-white border-[solid] border-[black]  h-[40px]  lg:w-[200px] md:w-[100px] border-[3px] rounded-[20px] p-[8px]`}>Sandwitches</li>
-                <li className={`bg-[#484242] text-white border-[solid] border-[black]  h-[40px]  lg:w-[200px] md:w-[100px] border-[3px] rounded-[20px] p-[8px]`}>Desserts</li>
-                <li className={`bg-[#484242] text-white border-[solid] border-[black]  h-[40px]  lg:w-[200px] md:w-[100px] border-[3px] rounded-[20px] p-[8px]`}>Burgers</li>
-                <li className={`bg-[#484242] text-white border-[solid] border-[black]  h-[40px]  lg:w-[200px] md:w-[100px] border-[3px] rounded-[20px] p-[8px]`}>All day breakfast</li>
-                <li className='bg-[#484242] text-white border-[solid] border-[black] border-[3px] rounded-[20px] lg:w-[200px] md:w-[100px] p-[8px] mb-[15px]'>Desserts</li> 
+            <ul className='flex flex-col st:gap-[34px] lg:gap-[20px] place-items-center w-[100%] h-[100%]'>
+                <li className={`bg-[#484242] text-white border-[solid] border-[black]  h-[40px]  lg:w-[200px] st:w-[80px]  border-[3px] rounded-[20px] p-[8px]mt-[50px]`}>CATEGORIES</li>
+                <li className={`bg-[#484242] text-white border-[solid] border-[black]  h-[40px]  lg:w-[200px] st:w-[80px]  border-[3px] rounded-[20px] p-[8px]`}>Bowls</li>
+                <li className={`bg-[#484242] text-white border-[solid] border-[black]  h-[40px]  lg:w-[200px] st:w-[80px]  border-[3px] rounded-[20px] p-[8px]`}>Noodles</li>
+                <li className={`bg-[#484242] text-white border-[solid] border-[black]  h-[40px]  lg:w-[200px] st:w-[80px]  border-[3px] rounded-[20px] p-[8px]`}>Salads</li>
+                <li className={`bg-[#484242] text-white border-[solid] border-[black]  h-[40px]  lg:w-[200px] st:w-[80px]  border-[3px] rounded-[20px] p-[8px]`}>Appetizers</li>
+                <li className={`bg-[#484242] text-white border-[solid] border-[black]  h-[40px]  lg:w-[200px] st:w-[80px]  border-[3px] rounded-[20px] p-[8px]`}>Lite Bite</li>
+                <li className={`bg-[#484242] text-white border-[solid] border-[black]  h-[40px]  lg:w-[200px] st:w-[80px]  border-[3px] rounded-[20px] p-[8px]`}>Sandwitches</li>
+                <li className={`bg-[#484242] text-white border-[solid] border-[black]  h-[40px]  lg:w-[200px] st:w-[80px]  border-[3px] rounded-[20px] p-[8px]`}>Desserts</li>
+                <li className={`bg-[#484242] text-white border-[solid] border-[black]  h-[40px]  lg:w-[200px] st:w-[80px]  border-[3px] rounded-[20px] p-[8px]`}>Burgers</li>
+                <li className={`bg-[#484242] text-white border-[solid] border-[black]  h-[40px]  lg:w-[200px] st:w-[80px]  border-[3px] rounded-[20px] p-[8px]`}>breakfast</li>
+                {/* <li className='bg-[#484242] text-white border-[solid] border-[black] border-[3px] rounded-[20px] lg:w-[200px] md:w-[100px] p-[8px] mb-[15px]'>Desserts</li>  */}
             </ul>
         </div>
         <div className=' h-[100%] overflow-auto grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 justify-items-center m-[5px] space-y-2 gap-[3px] '>
@@ -144,7 +144,7 @@ function Front_food() {
     </div>
     <div className='h-[50vh]  grid grid-cols-[1fr_1fr_1fr_1fr_2.5fr] pt-[30px] border-t-[solid] border-t-[black] border-t-[2px] rounded-[5px]'>
         <div>
-            <ul className='flex flex-col lg:gap-[40px] md:gap-[55px] place-items-center font-semibold lg:text-[20px] md:text-[12px]'>
+            <ul className='flex flex-col lg:gap-[40px] st:gap-[55px] place-items-center font-semibold lg:text-[20px] md:text-[12px]'>
                 <li className='font-bold'>COMPANY</li>
                 <li className='font-bold'>FAQ</li>
                 <li>About</li>
@@ -153,7 +153,7 @@ function Front_food() {
             </ul>
         </div>
         <div>
-        <ul className='flex flex-col lg:gap-[40px] md:gap-[55px] place-items-center font-semibold lg:text-[20px] md:text-[12px]'>
+        <ul className='flex flex-col lg:gap-[40px] st:gap-[55px] place-items-center font-semibold lg:text-[20px] md:text-[12px]'>
                 <li className='font-bold'>HELP & CONTACT</li>
                 <li>Help Center</li>
                 <li>Email Us</li>
@@ -162,7 +162,7 @@ function Front_food() {
             </ul>
         </div>
         <div>
-        <ul className='flex flex-col lg:gap-[40px] md:gap-[55px] place-items-center font-semibold lg:text-[20px] md:text-[12px] '>
+        <ul className='flex flex-col lg:gap-[40px] st:gap-[55px] place-items-center font-semibold lg:text-[20px] md:text-[12px] '>
                 <li className='font-bold'>MORE FROM US</li>
                 <li>Bulk/Party Order</li>
                 <li>Cake Order</li>
@@ -176,7 +176,7 @@ function Front_food() {
     <div className='flex flex-col lg:gap-[25px] md:gap-[60px] justify-start'>
         <div className='font-bold'>SUBSCRIBE TO OUR DROOLWORTHY NEWSLETTER</div>
         <div className='flex'>
-              <input type="email" placeholder='Enter your email....' className='border-[solid] border-[black] border-[2px] rounded-[5px] lg:w-[400px] md:w-[200px] lg:h-[45px] md:h-[40px] p-[20px]'></input>
+              <input type="email" placeholder='Enter your email....' className='border-[solid] border-[black] border-[2px] rounded-[5px] lg:w-[400px] st:w-[150px] lg:h-[45px] st:h-[35px] p-[20px]'></input>
               <div className='border-[solid] border-[black] border-[2px] rounded-[5px] lg:w-[100px]  h-[45px] p-[10px] bg-[black] text-[white]'>SUBSCRIBE</div>
         </div>
         <div className='grid grid-cols-5 lg:mt-[60px] md:mt-[40px]'>
