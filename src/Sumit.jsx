@@ -40,7 +40,7 @@ function CardWithForm({img, onIncrement,count}) {
   const encodedImageData = encodeURIComponent(JSON.stringify(imageAddress));
  
   return (
-    <Card className="w-[310px]  ">
+    <Card className="w-[310px] st:w-[280px]  ">
       <CardHeader>
         <CardTitle>Food of Your Choice</CardTitle>
         <CardDescription>Have Nice Taste in one-click.</CardDescription>
