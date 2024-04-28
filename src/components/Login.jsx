@@ -46,7 +46,7 @@ const res=await fetch("https://backend-lt38.onrender.com/register",{
     <div className='w-[100%] h-[100vh] bg-[url("source3.png")] bg-[no-repeat] bg-cover bg-center font-Lobster  '>
       <div className='w-[100%] h-[100%] bg-[hsla(0,0%,100%,0)] flex justify-center items-center  '>
        
-      <div className='lg:w-[25%] h-[75%] md:w-[45%] bg-[rgba(50,48,48,0.90)] p-[4px] rounded-[20px] relative lg:pt-[0.6%] md:pt-[7%]' id="parent" 
+      <div className='lg:w-[25%] h-[75%] md:w-[45%] bg-[rgba(50,48,48,0.90)] p-[4px] rounded-[20px] relative lg:pt-[0.6%] md:pt-[7%] grid grid-cols-1 grid-rows-[1fr_3fr_1fr]' id="parent" 
        onMouseEnter={() => setIsParentHovered(true)}
        onMouseLeave={() => setIsParentHovered(false)}>
       <div className={`absolute bottom-[0px] left-[0px] bg-[#767e86] w-[100%] transition-height duration-1000 ease-in   ${isParentHovered ? 'h-full opacity-100' : 'h-[0%] opacity-0'}  rounded-[20px] p-[4px] z-[1] `}></div>
@@ -71,7 +71,7 @@ const res=await fetch("https://backend-lt38.onrender.com/register",{
        
 
        </form>
-       <div className='flex  flex-cols justify-center pt-[6%]'>
+       <div className='flex  flex-cols justify-center pt-[6%] '>
         <Link to="/login" className='text-white text-[15px] z-[2333]'>ALREADY REGISTERED,LOGIN HERE!</Link>
        </div>
       </div>

@@ -84,7 +84,7 @@ function Front_food() {
             </div>
             <div className=' grid grid-cols-[3fr_1fr] place-items-center'>
                 <div className='st:text-[8px]'>
-                    <Link to="/register">Log In</Link>
+                    <Link to="https://backend-lt38.onrender.com/register">Log In</Link>
                     </div>
                 <div className='lg:text-[30px] md:text-[20px]'><RiContactsFill /></div>
             </div>
@@ -105,7 +105,7 @@ function Front_food() {
     <div className='h-[50px]'></div>
     <div className='h-[100%]  grid grid-cols-[20%_80%] p-[10px] '>
         <div className=' h-[100vh] sticky top-20 p-[10px] '>
-            <ul className='flex flex-col st:gap-[34px] md:gap-[34px] lg:gap-[20px] place-items-center w-[100%] h-[100%]'>
+            <ul className=' st:gap-[34px] md:gap-[34px] lg:gap-[20px] place-items-center w-[100%] h-[100%] grid grid-cols-1 grid-rows-10'>
                 <li className={`bg-[#484242] text-white border-[solid] border-[black]  h-[40px]  lg:w-[200px] st:w-[75px] st:text-[10px]  md:w-[90px] md:text-[13px] border-[3px] rounded-[20px] p-[8px]mt-[50px]`}>CATEGORIES</li>
                 <li className={`bg-[#484242] text-white border-[solid] border-[black]  h-[40px]  lg:w-[200px] st:w-[75px] st:text-[10px]  md:w-[90px] md:text-[13px] border-[3px] rounded-[20px] p-[8px]`}>Bowls</li>
                 <li className={`bg-[#484242] text-white border-[solid] border-[black]  h-[40px]  lg:w-[200px] st:w-[75px] st:text-[10px]  md:w-[90px] md:text-[13px] border-[3px] rounded-[20px] p-[8px]`}>Noodles</li>
@@ -191,7 +191,7 @@ function Front_food() {
     <div className=' h-[100%] grid grid-cols-[45%_55%]'>
         <div className='grid grid-cols-1  justify-items-start pl-10'>
           <h1 className='text-white text-[2rem] md:text-[2rem] st:text-[0.8rem]'>Get In Touch  </h1>
-          <div className='flex text-[1.2rem]  md:text-[2rem] text-white justify-around items-center  gap-2 md:gap-2'><div  ><FcApproval/></div><div><SlSocialLinkedin /></div><div><TiSocialYoutube /></div><div><SlSocialInstagram /></div><div><SlSocialPintarest /></div><div><FaGithub /></div></div>
+          <div className='flex text-[1.2rem] st:text-[0.7rem] md:text-[2rem] text-white justify-around items-center  gap-2 md:gap-2'><div  ><FcApproval/></div><div><SlSocialLinkedin /></div><div><TiSocialYoutube /></div><div><SlSocialInstagram /></div><div><SlSocialPintarest /></div><div><FaGithub /></div></div>
           <p className='text-white text-[0.7rem] md:text-[1rem] overflow-hidden '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus explicabo in magni commodi pariatur corrupti, assumenda blanditiis id natus dolore quasi inventore eius veritatis. Iste animi qui quod molestias facilis!</p>
         </div>
         <div className='pt-10 overflow-auto'>

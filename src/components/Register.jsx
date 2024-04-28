@@ -56,7 +56,7 @@ const res=await fetch("https://backend-lt38.onrender.com/login",{
   return (
     <div className='w-[100%] h-[100vh] bg-[url("source3.png")] bg-[no-repeat] bg-cover bg-center font-Lobster  '>
       <div className='w-[100%] h-[100%] bg-[rgba(255,255,255,0.17)] flex justify-center items-center '>
-      <div className='lg:w-[25%] h-[75%] md:w-[45%] bg-[rgba(50,48,48,0.90)] p-[4px] rounded-[20px] relative lg:pt-[4px] md:pt-[9%]' 
+      <div className='lg:w-[25%] h-[75%] md:w-[45%] bg-[rgba(50,48,48,0.90)] p-[4px] rounded-[20px] relative lg:pt-[4px] md:pt-[7%] grid grid-cols-1 grid-rows-[1fr_3fr_1fr]' 
        onMouseEnter={() => setIsParentHovered(true)}
        onMouseLeave={() => setIsParentHovered(false)}>
              <div className={`absolute bottom-[0px] left-[0px] bg-[#666869] w-[100%] transition-height duration-1000 ease-in   ${isParentHovered ? 'h-full opacity-100' : 'h-[0%] opacity-0'}  rounded-[20px] p-[4px] z-[0] `}></div>
